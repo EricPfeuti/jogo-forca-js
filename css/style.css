@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    padding: 40px 4%;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#exibicao-palavra{
+    font-size: 3em;
+}
+
+.input-tentativa{
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #000;
+    font-size: 16px;
+}
+
+button{
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #1c75fa;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s ease;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #0b4fb4;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+#btn-reiniciar{
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #4CAF50;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s ease;
+    color: #fff;
+}
+
+#btn-reiniciar:hover{
+    background-color: #308133;
+}
+
+#letras-chutadas{
+    font-size: 2em;
+    font-weight: 600;
+}

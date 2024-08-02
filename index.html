@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jogo da Forca | JavaScript</title>
+</head>
+<body>
+    
+    <h1>Jogo da Forca Simples | JavaScript</h1>
+
+    <div id="exibicao-palavra"></div><br>
+    <div class="alinhar">
+        <input type="text" class="input-tentativa" id="entrada-letra" placeholder="Digite uma letra:" maxlength="1">
+        <button id="btn-verificar" onclick="verificarLetra()">Verificar</button>
+    </div><br>
+
+    <h2>Letras Chutadas:</h2><br>
+    <div id="letras-chutadas"></div><br>
+    <h4 id="mensagem"></h4><br>
+    <div class="alinhar">
+        <button id="btn-reiniciar" onclick="reiniciarJogo()">Recomeçar</button>
+    </div>
+
+</body>
+<script defer src="js/script.js"></script>
+</html>
